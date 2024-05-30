@@ -12,7 +12,7 @@ public class Worker extends Thread{
 	}
 	
 	@Override
-	public void run(){
+	public synchronized void run(){
 		for (int i=0; i<5 ;i++){
 			if (id == 1) {
 				data.Tic();
@@ -20,9 +20,9 @@ public class Worker extends Thread{
 			else if(id==2) {
 				data.Tak();
 			}
-				else {
-					data.Toe();
-				}
+			else {
+				data.Toe();
+			}
 
 			}
 		}

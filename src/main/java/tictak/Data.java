@@ -5,7 +5,7 @@ public class Data {
 
     public int getState() { return state; }
 
-   synchronized public void Tic(){
+   synchronized void Tic(){
         while (state!=1) {
             try {
                 wait();

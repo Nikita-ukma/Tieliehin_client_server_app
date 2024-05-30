@@ -7,9 +7,9 @@ public class Main {
         Worker w3=new Worker(3, d);
         Worker w2=new Worker(2, d);
         Worker w1=new Worker(1, d);
-//        w3.join();
-//        w2.join();
-//        w1.join();
+        w3.join();
+        w2.join();
+        w1.join();
         System.out.println("end of main...");
     }
 }
