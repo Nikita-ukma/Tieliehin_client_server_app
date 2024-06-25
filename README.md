@@ -1,1 +1,3 @@
-Repository for homeworks
+Не виходило нормально додати, казало забагато файлів, перепрошую за незручності, надсилаю скріни виконання, що все працює ок
+![image](https://github.com/Nikita-ukma/Tieliehin_client_server_app/assets/114473494/484e0d84-e13e-4c70-91f8-01b55796710a)
+
